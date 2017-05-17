@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "StatusKit"
+title = "Telematique StatusKit"
 
 [permalinks]
   incidents = "/incidents/:year/:month/:day/:slug/"
@@ -14,4 +14,4 @@ title = "StatusKit"
 # you open or update an incident.
 # Example:
 # systems = ["API", "CDN", "DNS", "Site delivery"]
-systems = []
+systems = ["DNS", "NAS", "PMS"]
